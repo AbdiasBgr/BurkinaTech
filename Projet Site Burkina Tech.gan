@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Site Burkina Tech" company="" webLink="http://" view-date="2023-04-18" view-index="0" gantt-divider-location="300" resource-divider-location="300" version="3.1.3103" locale="fr_FR">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="167" order="0"/>
+        <field id="tpd4" name="Date de début" width="65" order="1"/>
+        <field id="tpd5" name="Date de fin" width="64" order="2"/>
+        <option id="color.recent">
+            <![CDATA[#3333ff #ffff33]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Retroplanning" color="#ffff33" meeting="false" start="2023-04-18" duration="1" complete="0" thirdDate="2023-04-18" thirdDate-constraint="0" expand="true">
+            <task id="1" name="Téléchargement Gantt" color="#ffff33" meeting="false" start="2023-04-18" duration="1" complete="0" thirdDate="2023-04-18" thirdDate-constraint="0" expand="true"/>
+            <task id="2" name="Tutoriel Gantt Project" color="#ffff33" meeting="false" start="2023-04-18" duration="1" complete="0" thirdDate="2023-04-18" thirdDate-constraint="0" expand="true"/>
+            <task id="3" name="Confection Retro-Planning" color="#ffff33" meeting="false" start="2023-04-18" duration="1" complete="0" thirdDate="2023-04-18" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="10" name="Maquette du site" color="#3333ff" meeting="false" start="2023-04-18" duration="1" complete="0" thirdDate="2023-04-18" thirdDate-constraint="0" expand="true">
+            <task id="11" name="Recherche d'inspiration" color="#3333ff" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2023-04-18" duration="1" complete="0" thirdDate="2023-04-18" thirdDate-constraint="0" expand="true"/>
+            <task id="13" name="Confection" color="#3333ff" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2023-04-18" duration="1" complete="0" thirdDate="2023-04-18" thirdDate-constraint="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Abdias BOGRE" function="Default:0" contacts="abdiasbgr@gmail.com" phone="+226 76427283"/>
+        <resource id="1" name="Madina OUEDRAOGO" function="Default:0" contacts="madinaouedraogow@gmail.com" phone="+226 73335457"/>
+    </resources>
+    <allocations>
+        <allocation task-id="0" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="10" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="11" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="0" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="10" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="11" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
